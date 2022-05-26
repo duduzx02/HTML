@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minha tebela</title>
+        <meta charset="UTF-8">
+
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                border-spacing: 15px 30px;
+                border: 1px solid gray;
+            }
+
+            tr, td, th {
+                border: 1px solid gray;
+            }
+            
+            th{
+                text-align: left;
+            }
+
+            thead {
+                color: white;
+                font-size: 15pt;
+                background-color: black;
+            }
+
+            tfoot{
+                color: gray;
+                font-size: 8pt;
+                background-color: lightgrey;
+            }
+
+            caption {
+                caption-side: bottom;
+            }
+
+            #endereço{
+                text-align: center;
+            }
+
+            tbody tr:nth-child(even){
+                background-color: lightgray;
+            }
+
+            tbody tr:nth-child(odd){
+                background-color: lightskyblue;
+            }
+
+            tbody td:hover{
+                background-color: lightcyan;
+            }
+
+            tbody tr:hover{
+                background-color: blue;
+            }
+        
+        </style>
+
+    </head>
+
+    <body>
+        <table border="5">
+            <caption>Tabela 1. Relação de clientes de ABC Company</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Nome</th>
+                    <th rowspan="2">Telefone</th>
+                    <th id="endereço"colspan="4">Endereço</th>
+                </tr>
+                <tr>
+
+                    <th>Rua</th>
+                    <th>Número</th>
+                    <th>Cidade</th>
+                    <th>Estado</th>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eduardo</td>
+                    <td>+55 86 4002 8922</td>
+                    <td>Oliveiras</td>
+                    <td>357</td>
+                    <td>Mulungu</td>
+                    <td>Paraiba</td>
+                </tr>
+
+                <tr>
+                    <td>Eduardo</td>
+                    <td>+55 86 4002 8922</td>
+                    <td>Oliveiras</td>
+                    <td>357</td>
+                    <td>Tangamanhagaba</td>
+                    <td>Paraiba</td>
+                </tr>
+
+                <tr>
+                    <td>Eduardo</td>
+                    <td>+55 86 4002 8922</td>
+                    <td>Oliveiras</td>
+                    <td>357</td>
+                    <td>João Pessoa</td>
+                    <td>Paraiba</td>
+                </tr>
+
+                <tr>
+                    <td>Eduardo</td>
+                    <td>+55 86 4002 8922</td>
+                    <td>Oliveiras</td>
+                    <td>357</td>
+                    <td></td>
+                    <td>Paraiba</td>
+                </tr>
+
+                <tr>
+                    <td>Eduardo</td>
+                    <td>+55 86 4002 8922</td>
+                    <td>Oliveiras</td>
+                    <td>357</td>
+                    <td>João Pessoa</td>
+                    <td>Paraiba</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Informações</td>
+                </tr>
+            </tfoot>
+        </table>        
+    </body>
+
+</html>
